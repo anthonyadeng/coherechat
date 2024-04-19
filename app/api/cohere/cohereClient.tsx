@@ -1,3 +1,4 @@
+'use server';
 import { CohereClient, CohereError, CohereTimeoutError } from 'cohere-ai';
 import {
   ChatMessage,
